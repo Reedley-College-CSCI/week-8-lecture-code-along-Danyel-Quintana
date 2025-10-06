@@ -2,6 +2,9 @@
 //New change
 #include <iostream>
 using namespace std;
+
+void showDrive();
+
 int main() {
 	const int SIZE = 10;
     cout << "Detroit Lions at Baltimore Ravens" << endl
@@ -11,5 +14,18 @@ int main() {
     cout << "First drive yards: " << yards[0] << endl;
     cout << "Epic second drive: " << yards[1] << " yards" << endl;
 
+	showDrive();
+	showDrive();
+	// Display array memory size
+	cout << "Array memory: ~" << sizeof(yards) << " bytes" << endl;
+
     return 0;
+}
+
+void showDrive() {
+
+    static int driveNum = 1;
+    cout << "Showing drive " << driveNum << endl;
+	driveNum++;
+
 }
