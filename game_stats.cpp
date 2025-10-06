@@ -24,7 +24,11 @@ int main() {
 	showDrive();
 	// Display array memory size
 	cout << "Array memory: ~" << sizeof(yards) << " bytes" << endl;
-
+    cout << "All yards: ";
+    for (int val : yards) {
+        cout << val << " ";
+	}
+	cout << endl;
     return 0;
 }
 
