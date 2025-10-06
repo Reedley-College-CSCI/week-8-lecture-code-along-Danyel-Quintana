@@ -9,7 +9,7 @@ int main() {
 
     int yards[SIZE] = { 67, 98, 60, 94, 35, 25, 45, 50, 30, 40 };
     cout << "First drive yards: " << yards[0] << endl;
-    cout << "Epic second drive: " << yards[1] << endl;
+    cout << "Epic second drive: " << yards[1] << " yards" << endl;
 
     return 0;
 }
