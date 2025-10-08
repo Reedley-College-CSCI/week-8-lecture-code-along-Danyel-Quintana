@@ -13,8 +13,8 @@ struct Drive {
 int main()
 {
 	const int SIZE = 10;
-	Drive drives[SIZE] = { 67,11 }, { 98, 18 }, { 60, 10 }, { 94,12 }, { 35,5 },
-	{ 25,4 }, { 45,6 }, { 50,7 }, { 30,5 }, { 40,6 };
+	Drive drives[SIZE] = { { 67,11 }, { 98, 18 }, { 60, 10 }, { 94,12 }, { 35,5 },
+	{ 25,4 }, { 45,6 }, { 50,7 }, { 30,5 }, { 40,6 } };
 
 	cout << "Detroit Lions at Baltimore Ravens" << endl
 		<< "Sept 29, 2025 Game Statistics" << endl;
